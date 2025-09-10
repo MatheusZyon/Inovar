@@ -273,6 +273,13 @@ function App() {
       {/* Footer */}
       <footer className="bg-charcoal text-white py-8 px-4">
         <div className="max-w-6xl mx-auto text-center">
+          <div className="flex justify-center mb-4">
+            <img 
+              src="/assets/cria-rapido-logo.png" 
+              alt="Cria Rápido Logo" 
+              className="h-12 w-auto"
+            />
+          </div>
           <h3 className="text-2xl font-bold mb-2">CRIA RÁPIDO</h3>
           <p className="text-gray-400 mb-4">Soluções Criativas e Audiovisuais</p>
           <p className="text-sm text-gray-500">
