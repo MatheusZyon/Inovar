@@ -65,12 +65,11 @@ function App() {
     }
   }
 
-  const whatsappNumber = "5511999999999" // Substitua pelo número real
-  const whatsappMessage = "Olá! Gostaria de saber mais sobre os serviços audiovisuais da Inovar."
-
   const openWhatsApp = () => {
-    const url = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(whatsappMessage)}`
-    window.open(url, '_blank')
+    const phoneNumber = '5511985307758'
+    const message = 'Olá! Gostaria de saber mais sobre os serviços audiovisuais da Inovar.'
+    const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`
+    window.open(whatsappUrl, '_blank')
   }
 
   return (
