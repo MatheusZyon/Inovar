@@ -77,6 +77,14 @@ function App() {
       {/* Hero Section */}
       <section className="relative bg-gradient-to-br from-sage to-sage-dark py-20 px-4">
         <div className="max-w-6xl mx-auto text-center">
+          {/* Logo da Cria Rápido */}
+          <div className="flex justify-center mb-8">
+            <img 
+              src="/assets/cria-rapido-logo.png" 
+              alt="Cria Rápido Logo" 
+              className="h-20 w-auto"
+            />
+          </div>
           <h1 className="text-5xl md:text-6xl font-bold mb-6 leading-tight text-charcoal">
             Serviços Audiovisuais
             <span className="block text-orange">Profissionais</span>
@@ -277,10 +285,9 @@ function App() {
             <img 
               src="/assets/cria-rapido-logo.png" 
               alt="Cria Rápido Logo" 
-              className="h-12 w-auto"
+              className="h-16 w-auto"
             />
           </div>
-          <h3 className="text-2xl font-bold mb-2">CRIA RÁPIDO</h3>
           <p className="text-gray-400 mb-4">Soluções Criativas e Audiovisuais</p>
           <p className="text-sm text-gray-500">
             © 2024 CRIA RÁPIDO. Todos os direitos reservados.
